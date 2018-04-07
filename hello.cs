@@ -5,5 +5,9 @@ namespace Demo{
 		public static void Main( string[] s ){
 			Console.WriteLine("Hello, world!!!") ;
 		}
+
+		public status void Print( string s ){
+			Console.WriteLine( s ) ;
+		}
 	}
 }
