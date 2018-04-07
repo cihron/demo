@@ -9,5 +9,9 @@ namespace Demo{
 		public status void Print( string s ){
 			Console.WriteLine( s ) ;
 		}
+		
+		public status void Show( string s ){
+			Print( s ) ;
+		}
 	}
 }
