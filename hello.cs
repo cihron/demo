@@ -13,5 +13,9 @@ namespace Demo{
 		public status void Show( string s ){
 			Print( s ) ;
 		}
+		
+		public status void Hello(){
+			Print("hello!") ;
+		}
 	}
 }
