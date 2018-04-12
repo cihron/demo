@@ -6,15 +6,15 @@ namespace Demo{
 			Console.WriteLine("Main functon only!") ;
 		}
 
-		public status void Print( string s ){
+		public static void Print( string s ){
 			Console.WriteLine( s ) ;
 		}
 		
-		public status void Show( string s ){
+		public static void Show( string s ){
 			Print( s ) ;
 		}
 		
-		public status void Hello(){
+		public static void Hello(){
 			Print("hello!") ;
 		}
 	}
