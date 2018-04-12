@@ -14,7 +14,7 @@ namespace Demo{
 			Print( s ) ;
 		}
 		
-		public static void Hello(){
+		public static void Say_hello(){
 			Print("hello!") ;
 		}
 	}
